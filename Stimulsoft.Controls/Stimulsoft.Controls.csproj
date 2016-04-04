@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE860976-CE4E-4A7A-969B-A2A7E826A9DC}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Stimulsoft.Controls</AssemblyName>
+    <AssemblyOriginatorKeyFile>stimulsoft.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Stimulsoft.Controls</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>false</SignAssembly>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>http://localhost/Stimulsoft.Controls/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG;Profile</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Demo|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;Demo;Profile</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;Profile</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Stimulsoft.Base\Stimulsoft.Base.csproj">
+      <Name>Stimulsoft.Base</Name>
+      <Project>{376CC7AD-21A9-4B6A-B471-0E7186222CA7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RightTabulator\StiCloudMode.cs" />
+    <Compile Include="RightTabulator\StiCloudTabulator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RightTabulator\StiCloudTabulatorPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiDatabaseSelectGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiOffice2013GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DesktopIntegration\COMTypes.cs" />
+    <Compile Include="DesktopIntegration\Interop.cs" />
+    <Compile Include="DesktopIntegration\ThumbnailButtons\CustomWindowsManager.cs" />
+    <Compile Include="DesktopIntegration\ThumbnailButtons\ProxyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesktopIntegration\ThumbnailButtons\ThumbButton.cs" />
+    <Compile Include="DesktopIntegration\ThumbnailButtons\ThumbButtonManager.cs" />
+    <Compile Include="DesktopIntegration\Windows7Taskbar.cs" />
+    <Compile Include="DockingManager\StiControlResize.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiDockingConrolDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiDockingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiDockingManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiDockingManagerDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiDockingPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiDockingPanelDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiDockingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingManager\StiFloatingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutlookBar\StiOutlookBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OutlookBar\StiOutlookBarDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OutlookBar\StiOutlookPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OutlookBar\StiOutlookPanelDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Popup\IStiPopupParentControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Popup\StiPopupBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\StiPopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\StiShadow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Popup\StiShadowPopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiButtonEditBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiColorBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiColorBoxPopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StiColorButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiControlBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiDotSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiDotSeparator.Designer.cs">
+      <DependentUpon>StiDotSeparator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StiDotSeparatorVertical.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiDotSeparatorVertical.Designer.cs">
+      <DependentUpon>StiDotSeparatorVertical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StiEditBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiFontBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiGroupLine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiHScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiImageIndexEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiLookUpBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiMenuProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiNumericUpDownBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiScrollableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiStringCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiStringCollectionEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiStyleOffice2013Blue.cs" />
+    <Compile Include="StiTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiTreeNodesFillEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiTreeView.cs" />
+    <Compile Include="StiTreeViewBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiTreeViewBoxPopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StiTreeViewMultiBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiValueChangedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiVScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiWebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\StiTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\StiTabControlDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TabControl\StiTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\StiTabPageDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tabulator\IStiTabulatorStyle.cs" />
+    <Compile Include="Tabulator\StiControlStyle.cs" />
+    <Compile Include="Tabulator\StiLeftHorizontalMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tabulator\StiRightHorizontalMode.cs" />
+    <Compile Include="Tabulator\StiTabulator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tabulator\StiTabulatorDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tabulator\StiTabulatorMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tabulator\StiTabulatorPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tabulator\StiTabulatorPageDesign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tabulator\StiTabulatorStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tabulator\StiTabulatorStyleOffice2013Blue.cs" />
+    <Compile Include="Tabulator\StiTopHorizontalMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Toolbar\StiToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Toolbar\StiToolBarDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Toolbar\StiToolButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Toolbar\StiToolButtonDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiBeforeFinishEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiBeforePageChangedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiCanFinishEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiCanNextEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiWizard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiWizardDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiWizardPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiWizardPageCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\StiWizardPageDesign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Bmp\AutoHideOff.bmp" />
+    <EmbeddedResource Include="Bmp\AutoHideOn.bmp" />
+    <EmbeddedResource Include="Bmp\Close.bmp" />
+    <EmbeddedResource Include="Bmp\Collapse.bmp" />
+    <EmbeddedResource Include="Bmp\ComboDown.bmp" />
+    <EmbeddedResource Include="Bmp\ComboLeft.bmp" />
+    <EmbeddedResource Include="Bmp\ComboRight.bmp" />
+    <EmbeddedResource Include="Bmp\ComboUp.bmp" />
+    <EmbeddedResource Include="Bmp\Down.bmp" />
+    <EmbeddedResource Include="Bmp\DropDownArrow.bmp" />
+    <EmbeddedResource Include="Bmp\Expand.bmp" />
+    <EmbeddedResource Include="Bmp\SpinDown.bmp" />
+    <EmbeddedResource Include="Bmp\SpinUp.bmp" />
+    <EmbeddedResource Include="Bmp\Up.bmp" />
+    <EmbeddedResource Include="DockingManager\StiControlResize.resx">
+      <DependentUpon>StiControlResize.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\StiDockingControl.resx">
+      <DependentUpon>StiDockingControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\StiDockingWindow.resx">
+      <DependentUpon>StiDockingWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\StiFloatingForm.resx">
+      <DependentUpon>StiFloatingForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutlookBar\StiOutlookBar.resx">
+      <DependentUpon>StiOutlookBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutlookBar\StiOutlookPanel.resx">
+      <DependentUpon>StiOutlookPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\StiPopupBaseForm.resx">
+      <DependentUpon>StiPopupBaseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightTabulator\StiCloudTabulatorPage.resx">
+      <DependentUpon>StiCloudTabulatorPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiButton.resx">
+      <DependentUpon>StiButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiButtonEdit.resx">
+      <DependentUpon>StiButtonEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiButtonEditBase.resx">
+      <DependentUpon>StiButtonEditBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiColorBox.resx">
+      <DependentUpon>StiColorBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiColorBoxPopupForm.resx">
+      <DependentUpon>StiColorBoxPopupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiColorButton.resx">
+      <DependentUpon>StiColorButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiComboBox.resx">
+      <DependentUpon>StiComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiFontBox.resx">
+      <DependentUpon>StiFontBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiHScrollBar.resx">
+      <DependentUpon>StiHScrollBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiListBox.resx">
+      <DependentUpon>StiListBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiMenuProvider.resx">
+      <DependentUpon>StiMenuProvider.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiNumericUpDownBase.resx">
+      <DependentUpon>StiNumericUpDownBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiTextBox.resx">
+      <DependentUpon>StiTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiTreeViewBox.resx">
+      <DependentUpon>StiTreeViewBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiTreeViewBoxPopupForm.resx">
+      <DependentUpon>StiTreeViewBoxPopupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StiTreeViewMultiBox.resx">
+      <DependentUpon>StiTreeViewMultiBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControl\StiTabControl.resx">
+      <DependentUpon>StiTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabulator\StiTabulatorPage.resx">
+      <DependentUpon>StiTabulatorPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toolbar\StiToolBar.resx">
+      <DependentUpon>StiToolBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toolbar\StiToolButton.resx">
+      <DependentUpon>StiToolButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toolbox\StiButton.bmp" />
+    <EmbeddedResource Include="Toolbox\StiButtonEdit.bmp" />
+    <EmbeddedResource Include="Toolbox\StiCheckBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiColorBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiColorButton.bmp" />
+    <EmbeddedResource Include="Toolbox\StiComboBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiDockingManager.bmp" />
+    <EmbeddedResource Include="Toolbox\StiFontBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiGroupBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiGroupLine.bmp" />
+    <EmbeddedResource Include="Toolbox\StiListBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiMenuProvider.bmp" />
+    <EmbeddedResource Include="Toolbox\StiNumericUpDown.bmp" />
+    <EmbeddedResource Include="Toolbox\StiOutlookBar.bmp" />
+    <EmbeddedResource Include="Toolbox\StiPanel.bmp" />
+    <EmbeddedResource Include="Toolbox\StiRadioButton.bmp" />
+    <EmbeddedResource Include="Toolbox\StiRichTextBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiScrollableControl.bmp" />
+    <EmbeddedResource Include="Toolbox\StiTabControl.bmp" />
+    <EmbeddedResource Include="Toolbox\StiTextBox.bmp" />
+    <EmbeddedResource Include="Toolbox\StiToolBar.bmp" />
+    <EmbeddedResource Include="Toolbox\StiToolButton.bmp" />
+    <EmbeddedResource Include="Toolbox\StiTreeView.bmp" />
+    <EmbeddedResource Include="Toolbox\StiTreeViewBox.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stimulsoft.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bmp\ComboDown.png" />
+    <EmbeddedResource Include="Bmp\DropDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

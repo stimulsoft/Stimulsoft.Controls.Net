@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{376CC7AD-21A9-4B6A-B471-0E7186222CA7}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Stimulsoft.Base</AssemblyName>
+    <AssemblyOriginatorKeyFile>stimulsoft.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Stimulsoft.Base</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>false</SignAssembly>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Stimulsoft.Base/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>0618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Demo|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;Demo;</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>0618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>0618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Demo|x64' ">
+    <OutputPath>bin\x64\Demo\</OutputPath>
+    <DefineConstants>TRACE;Demo;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Demo|x86' ">
+    <OutputPath>bin\x86\Demo\</OutputPath>
+    <DefineConstants>TRACE;Demo;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Design\StiBrowsableAttribute.cs" />
+    <Compile Include="StiByteArrayHelper.cs" />
+    <Compile Include="Properties\StiAssemblies.cs" />
+    <Compile Include="BussinesObjects\StiDataSetHelper.cs" />
+    <Compile Include="BussinesObjects\StiFixedColumnInfo.cs" />
+    <Compile Include="Context\Animation\StiAnimation.cs" />
+    <Compile Include="Context\Animation\StiRotaionAnimation.cs" />
+    <Compile Include="Context\Animation\StiScaleAnimation.cs" />
+    <Compile Include="Context\Animation\StiTranslationAnimation.cs" />
+    <Compile Include="Context\Gauge\Enums.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiEllipseGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiGraphicsArcGeometryGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiGraphicsPathArcGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiGraphicsPathCloseFigureGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiGraphicsPathGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiGraphicsPathLineGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiGraphicsPathLinesGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiPieGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiPopTranformGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiPushMatrixGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiRadialRangeGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiRectangleGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiRoundedRectangleGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\Geoms\StiTextGaugeGeom.cs" />
+    <Compile Include="Context\Gauge\IStiGaugeMarker.cs" />
+    <Compile Include="Context\Indicator\Enums.cs" />
+    <Compile Include="Context\Indicator\StiEllipseIndicatorGeom.cs" />
+    <Compile Include="Context\Indicator\StiGraphicsPathCloseFigureIndicatorGeom.cs" />
+    <Compile Include="Context\Indicator\StiGraphicsPathIndicatorGeom.cs" />
+    <Compile Include="Context\Indicator\StiGraphicsPathLinesIndicatorGeom.cs" />
+    <Compile Include="Context\Indicator\StiIndicatorGeom.cs" />
+    <Compile Include="Context\Indicator\StiRectangleIndicatorGeom.cs" />
+    <Compile Include="Context\Map\Enums.cs" />
+    <Compile Include="Context\Map\StiMapGeomsObject.cs" />
+    <Compile Include="Context\Map\StiMapGeomsContainer.cs" />
+    <Compile Include="Context\Map\StiCloseMapGeom.cs" />
+    <Compile Include="Context\Map\StiBeziersMapGeom.cs" />
+    <Compile Include="Context\Map\StiBezierMapGeom.cs" />
+    <Compile Include="Context\Map\StiMapGeom.cs" />
+    <Compile Include="Context\Map\StiLineMapGeom.cs" />
+    <Compile Include="Context\Map\StiMoveToMapGeom.cs" />
+    <Compile Include="Data\Connectors\File\Helpers\StiCsvHelper.cs" />
+    <Compile Include="Data\Connectors\File\Helpers\StiDBaseHelper.cs" />
+    <Compile Include="Data\Connectors\File\Helpers\StiDataNameValidator.cs" />
+    <Compile Include="Data\Connectors\File\Helpers\StiFileItemTable.cs" />
+    <Compile Include="Data\Connectors\File\Options\StiExcelOptions.cs" />
+    <Compile Include="Data\Connectors\File\Options\StiXmlOptions.cs" />
+    <Compile Include="Data\Connectors\File\Options\StiJsonOptions.cs" />
+    <Compile Include="Data\Connectors\File\Options\StiDBaseOptions.cs" />
+    <Compile Include="Data\Connectors\File\Options\StiCsvOptions.cs" />
+    <Compile Include="Data\Connectors\File\Options\StiFileDataOptions.cs" />
+    <Compile Include="Data\Connectors\File\StiExcelConnector.cs" />
+    <Compile Include="Data\Connectors\File\StiJsonConnector.cs" />
+    <Compile Include="Data\Connectors\File\StiXmlConnector.cs" />
+    <Compile Include="Data\Connectors\File\StiDBaseConnector.cs" />
+    <Compile Include="Data\Connectors\File\StiCsvConnector.cs" />
+    <Compile Include="Data\Connectors\File\StiFileDataConnector.cs" />
+    <Compile Include="Data\Connectors\NoSql\StiMongoDbSqlConnector.cs" />
+    <Compile Include="Data\Connectors\NoSql\StiNoSqlDataConnector.cs" />
+    <Compile Include="Data\Connectors\Rest\Helpers\StiODataHelper.cs" />
+    <Compile Include="Data\Connectors\Rest\StiODataConnector.cs" />
+    <Compile Include="Data\Connectors\Rest\StiRestDataConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiUniversalDevartConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiOracleManagedConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiSybaseConnector.cs" />
+    <Compile Include="Data\Connectors\StiDataOptions.cs" />
+    <Compile Include="Data\StiNuGetPackageInfo.cs" />
+    <Compile Include="Data\StiPackageDependency.cs" />
+    <Compile Include="Design\StiPropertyGridOptions.cs" />
+    <Compile Include="Drawing\StiBytesFromURL.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\Enums.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbDimension.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbNumFmt.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbRecord.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbSST.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbStyles.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbWorkbook.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbWorksheet.cs" />
+    <Compile Include="Excel\IO\Core\Binary12Format\XlsbXf.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\Enums.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffBlankCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffBOF.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffBoolErr.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffBoundSheet.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffContinue.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffDbCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffDimensions.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffEOF.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffFormatString.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffFormulaCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffFormulaString.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffIndex.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffIntegerCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffInterfaceHdr.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffLabelCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffLabelSSTCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffMulBlankCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffMulRKCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffNumberCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffRecord.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffRKCell.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffRow.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffSimpleValueRecord.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffSST.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffStream.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffUncalced.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsBiffWindow1.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsDirectoryEntry.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsFat.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsFormattedUnicodeString.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsHeader.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsRootDirectory.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsStream.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsWorkbookGlobals.cs" />
+    <Compile Include="Excel\IO\Core\BinaryFormat\XlsWorksheet.cs" />
+    <Compile Include="Excel\IO\Core\FormatReader.cs" />
+    <Compile Include="Excel\IO\Core\Helpers.cs" />
+    <Compile Include="Excel\IO\Core\OpenXmlFormat\XlsxDimension.cs" />
+    <Compile Include="Excel\IO\Core\OpenXmlFormat\XlsxNumFmt.cs" />
+    <Compile Include="Excel\IO\Core\OpenXmlFormat\XlsxSST.cs" />
+    <Compile Include="Excel\IO\Core\OpenXmlFormat\XlsxStyles.cs" />
+    <Compile Include="Excel\IO\Core\OpenXmlFormat\XlsxWorkbook.cs" />
+    <Compile Include="Excel\IO\Core\OpenXmlFormat\XlsxWorksheet.cs" />
+    <Compile Include="Excel\IO\Core\OpenXmlFormat\XlsxXf.cs" />
+    <Compile Include="Excel\IO\Core\ZipWorker.cs" />
+    <Compile Include="Excel\IO\Errors.cs" />
+    <Compile Include="Excel\IO\ExcelBinaryReader.cs" />
+    <Compile Include="Excel\IO\ExcelFileType.cs" />
+    <Compile Include="Excel\IO\ExcelOpenXmlReader.cs" />
+    <Compile Include="Excel\IO\ExcelReaderFactory.cs" />
+    <Compile Include="Excel\IO\Exceptions\BiffRecordException.cs" />
+    <Compile Include="Excel\IO\Exceptions\HeaderException.cs" />
+    <Compile Include="Excel\IO\Factory.cs" />
+    <Compile Include="Excel\IO\IExcelDataReader.cs" />
+    <Compile Include="Excel\StiExcelHelper.cs" />
+    <Compile Include="Json\Enums.cs" />
+    <Compile Include="Properties\StiPublicName.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiBorderAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiClusteredBarSeriesAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiClusteredColumnSeriesAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiCurveAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiEllipseAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiLabelAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiLinesAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiPathAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiPathElementAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Animation\StiShadowAnimationGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\Enums.cs" />
+    <Compile Include="Context\Chart\Geoms\StiArcSegmentGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiBorderGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiCachedShadowGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiCloseFigureSegmentGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiCurveGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiCurveSegmentGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiEllipseGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiFontGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiLineGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiLineSegmentGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiLinesGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiLinesSegmentGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPathGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPenGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPieSegmentGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPopClipGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPopSmothingModeGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPopTextRenderingHintGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPopTransformGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPushClipGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPushRotateTransformGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPushSmothingModeToAntiAliasGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPushTextRenderingHintToAntiAliasGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiPushTranslateTransformGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiSegmentGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiShadowGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiStringFormatGeom.cs" />
+    <Compile Include="Context\Chart\Geoms\StiTextGeom.cs" />
+    <Compile Include="Context\Chart\StiContext.cs" />
+    <Compile Include="Context\Chart\StiContextOptions.cs" />
+    <Compile Include="Context\Chart\StiContextPainter.cs" />
+    <Compile Include="Crypto\MD5.cs" />
+    <Compile Include="Data\Connectors\StiTableQuery.cs" />
+    <Compile Include="Data\Connectors\Sql\StiDb2Connector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiInformixConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiMsAccessConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiMySqlDevartConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiOracleClientConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiOracleDevartConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiPostgreSqlDevartConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiTeradataConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiVistaDbConnector.cs" />
+    <Compile Include="Data\Connectors\StiDataAssemblyHelper.cs" />
+    <Compile Include="Data\Connectors\StiSchemaRow.cs" />
+    <Compile Include="Data\Connectors\Sql\StiSqlDataConnector.cs" />
+    <Compile Include="Data\Connectors\StiTableName.cs" />
+    <Compile Include="Data\DataExtensions.cs" />
+    <Compile Include="Data\Enums.cs" />
+    <Compile Include="Data\Connectors\Sql\StiFirebirdConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiMsSqlConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiMySqlConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiOdbcConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiOleDbConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiOracleConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiPostgreSqlConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiSqlCeConnector.cs" />
+    <Compile Include="Data\Connectors\StiDataConnector.cs" />
+    <Compile Include="Data\Connectors\Sql\StiSqLiteConnector.cs" />
+    <Compile Include="Data\Results\StiTestConnectionResult.cs" />
+    <Compile Include="Data\Schemas\Data\StiDataColumnSchema.cs" />
+    <Compile Include="Data\Schemas\Data\StiDataParameterSchema.cs" />
+    <Compile Include="Data\Schemas\Data\StiDataRelationSchema.cs" />
+    <Compile Include="Data\Schemas\Data\StiDataSchema.cs" />
+    <Compile Include="Data\Schemas\Data\StiDataTableSchema.cs" />
+    <Compile Include="Data\Schemas\StiObjectSchema.cs" />
+    <Compile Include="Data\StiDbType.cs" />
+    <Compile Include="Data\StiDbTypeConversion.cs" />
+    <Compile Include="Design\IStiDeignerLauncher.cs" />
+    <Compile Include="Drawing\StiRichTextFromURL.cs" />
+    <Compile Include="Drawing\StiShadow2013Painter.cs" />
+    <Compile Include="Helpers\JsonExtensions.cs" />
+    <Compile Include="Helpers\StiBytesToStringConverter.cs" />
+    <Compile Include="Helpers\StiJsonHelper.cs" />
+    <Compile Include="Helpers\StiPacker.cs" />
+    <Compile Include="IStiLocalize.cs" />
+    <Compile Include="IStiThreadForm.cs" />
+    <Compile Include="Json\IStiJsonReportObject.cs" />
+    <Compile Include="Json\StiJsonReportObjectHelper.cs" />
+    <Compile Include="Json\StiJsonToDataSetConverter.cs" />
+    <Compile Include="Json\IO\Bson\BsonBinaryType.cs" />
+    <Compile Include="Json\IO\Bson\BsonBinaryWriter.cs" />
+    <Compile Include="Json\IO\Bson\BsonObjectId.cs" />
+    <Compile Include="Json\IO\Bson\BsonReader.cs" />
+    <Compile Include="Json\IO\Bson\BsonToken.cs" />
+    <Compile Include="Json\IO\Bson\BsonType.cs" />
+    <Compile Include="Json\IO\Bson\BsonWriter.cs" />
+    <Compile Include="Json\IO\ConstructorHandling.cs" />
+    <Compile Include="Json\IO\Converters\BinaryConverter.cs" />
+    <Compile Include="Json\IO\Converters\BsonObjectIdConverter.cs" />
+    <Compile Include="Json\IO\Converters\CustomCreationConverter.cs" />
+    <Compile Include="Json\IO\Converters\DataSetConverter.cs" />
+    <Compile Include="Json\IO\Converters\DataTableConverter.cs" />
+    <Compile Include="Json\IO\Converters\DateTimeConverterBase.cs" />
+    <Compile Include="Json\IO\Converters\DiscriminatedUnionConverter.cs" />
+    <Compile Include="Json\IO\Converters\EntityKeyMemberConverter.cs" />
+    <Compile Include="Json\IO\Converters\ExpandoObjectConverter.cs" />
+    <Compile Include="Json\IO\Converters\IsoDateTimeConverter.cs" />
+    <Compile Include="Json\IO\Converters\JavaScriptDateTimeConverter.cs" />
+    <Compile Include="Json\IO\Converters\JsonValueConverter.cs" />
+    <Compile Include="Json\IO\Converters\KeyValuePairConverter.cs" />
+    <Compile Include="Json\IO\Converters\RegexConverter.cs" />
+    <Compile Include="Json\IO\Converters\StringEnumConverter.cs" />
+    <Compile Include="Json\IO\Converters\VersionConverter.cs" />
+    <Compile Include="Json\IO\Converters\XmlNodeConverter.cs" />
+    <Compile Include="Json\IO\DateFormatHandling.cs" />
+    <Compile Include="Json\IO\DateParseHandling.cs" />
+    <Compile Include="Json\IO\DateTimeZoneHandling.cs" />
+    <Compile Include="Json\IO\DefaultValueHandling.cs" />
+    <Compile Include="Json\IO\FloatFormatHandling.cs" />
+    <Compile Include="Json\IO\FloatParseHandling.cs" />
+    <Compile Include="Json\IO\FormatterAssemblyStyle.cs" />
+    <Compile Include="Json\IO\Formatting.cs" />
+    <Compile Include="Json\IO\IJsonLineInfo.cs" />
+    <Compile Include="Json\IO\JsonArrayAttribute.cs" />
+    <Compile Include="Json\IO\JsonConstructorAttribute.cs" />
+    <Compile Include="Json\IO\JsonContainerAttribute.cs" />
+    <Compile Include="Json\IO\JsonConvert.cs" />
+    <Compile Include="Json\IO\JsonConverter.cs" />
+    <Compile Include="Json\IO\JsonConverterAttribute.cs" />
+    <Compile Include="Json\IO\JsonConverterCollection.cs" />
+    <Compile Include="Json\IO\JsonDictionaryAttribute.cs" />
+    <Compile Include="Json\IO\JsonException.cs" />
+    <Compile Include="Json\IO\JsonExtensionDataAttribute.cs" />
+    <Compile Include="Json\IO\JsonIgnoreAttribute.cs" />
+    <Compile Include="Json\IO\JsonObjectAttribute.cs" />
+    <Compile Include="Json\IO\JsonPosition.cs" />
+    <Compile Include="Json\IO\JsonPropertyAttribute.cs" />
+    <Compile Include="Json\IO\JsonReader.cs" />
+    <Compile Include="Json\IO\JsonReaderException.cs" />
+    <Compile Include="Json\IO\JsonSerializationException.cs" />
+    <Compile Include="Json\IO\JsonSerializer.cs" />
+    <Compile Include="Json\IO\JsonSerializerSettings.cs" />
+    <Compile Include="Json\IO\JsonTextReader.cs" />
+    <Compile Include="Json\IO\JsonTextWriter.cs" />
+    <Compile Include="Json\IO\JsonToken.cs" />
+    <Compile Include="Json\IO\JsonValidatingReader.cs" />
+    <Compile Include="Json\IO\JsonWriter.cs" />
+    <Compile Include="Json\IO\JsonWriterException.cs" />
+    <Compile Include="Json\IO\Linq\Extensions.cs" />
+    <Compile Include="Json\IO\Linq\IJEnumerable.cs" />
+    <Compile Include="Json\IO\Linq\JArray.cs" />
+    <Compile Include="Json\IO\Linq\JConstructor.cs" />
+    <Compile Include="Json\IO\Linq\JContainer.cs" />
+    <Compile Include="Json\IO\Linq\JEnumerable.cs" />
+    <Compile Include="Json\IO\Linq\JObject.cs" />
+    <Compile Include="Json\IO\Linq\JProperty.cs" />
+    <Compile Include="Json\IO\Linq\JPropertyDescriptor.cs" />
+    <Compile Include="Json\IO\Linq\JPropertyKeyedCollection.cs" />
+    <Compile Include="Json\IO\Linq\JRaw.cs" />
+    <Compile Include="Json\IO\Linq\JsonMergeSettings.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\ArrayIndexFilter.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\ArrayMultipleIndexFilter.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\ArraySliceFilter.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\FieldFilter.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\FieldMultipleFilter.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\JPath.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\PathFilter.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\QueryExpression.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\QueryFilter.cs" />
+    <Compile Include="Json\IO\Linq\JsonPath\ScanFilter.cs" />
+    <Compile Include="Json\IO\Linq\JToken.cs" />
+    <Compile Include="Json\IO\Linq\JTokenEqualityComparer.cs" />
+    <Compile Include="Json\IO\Linq\JTokenReader.cs" />
+    <Compile Include="Json\IO\Linq\JTokenType.cs" />
+    <Compile Include="Json\IO\Linq\JTokenWriter.cs" />
+    <Compile Include="Json\IO\Linq\JValue.cs" />
+    <Compile Include="Json\IO\Linq\MergeArrayHandling.cs" />
+    <Compile Include="Json\IO\MemberSerialization.cs" />
+    <Compile Include="Json\IO\MetadataPropertyHandling.cs" />
+    <Compile Include="Json\IO\MissingMemberHandling.cs" />
+    <Compile Include="Json\IO\NullValueHandling.cs" />
+    <Compile Include="Json\IO\ObjectCreationHandling.cs" />
+    <Compile Include="Json\IO\PreserveReferencesHandling.cs" />
+    <Compile Include="Json\IO\ReferenceLoopHandling.cs" />
+    <Compile Include="Json\IO\Required.cs" />
+    <Compile Include="Json\IO\Schema\Extensions.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchema.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaBuilder.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaConstants.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaException.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaGenerator.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaModel.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaModelBuilder.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaNode.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaNodeCollection.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaResolver.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaType.cs" />
+    <Compile Include="Json\IO\Schema\JsonSchemaWriter.cs" />
+    <Compile Include="Json\IO\Schema\UndefinedSchemaIdHandling.cs" />
+    <Compile Include="Json\IO\Schema\ValidationEventArgs.cs" />
+    <Compile Include="Json\IO\Schema\ValidationEventHandler.cs" />
+    <Compile Include="Json\IO\SerializationBinder.cs" />
+    <Compile Include="Json\IO\Serialization\CachedAttributeGetter.cs" />
+    <Compile Include="Json\IO\Serialization\CamelCasePropertyNamesContractResolver.cs" />
+    <Compile Include="Json\IO\Serialization\DefaultContractResolver.cs" />
+    <Compile Include="Json\IO\Serialization\DefaultReferenceResolver.cs" />
+    <Compile Include="Json\IO\Serialization\DefaultSerializationBinder.cs" />
+    <Compile Include="Json\IO\Serialization\DiagnosticsTraceWriter.cs" />
+    <Compile Include="Json\IO\Serialization\DynamicValueProvider.cs" />
+    <Compile Include="Json\IO\Serialization\ErrorContext.cs" />
+    <Compile Include="Json\IO\Serialization\ErrorEventArgs.cs" />
+    <Compile Include="Json\IO\Serialization\ExpressionValueProvider.cs" />
+    <Compile Include="Json\IO\Serialization\IAttributeProvider.cs" />
+    <Compile Include="Json\IO\Serialization\IContractResolver.cs" />
+    <Compile Include="Json\IO\Serialization\IReferenceResolver.cs" />
+    <Compile Include="Json\IO\Serialization\ITraceWriter.cs" />
+    <Compile Include="Json\IO\Serialization\IValueProvider.cs" />
+    <Compile Include="Json\IO\Serialization\JsonArrayContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonContainerContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonDictionaryContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonDynamicContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonFormatterConverter.cs" />
+    <Compile Include="Json\IO\Serialization\JsonISerializableContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonLinqContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonObjectContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonPrimitiveContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonProperty.cs" />
+    <Compile Include="Json\IO\Serialization\JsonPropertyCollection.cs" />
+    <Compile Include="Json\IO\Serialization\JsonSerializerInternalBase.cs" />
+    <Compile Include="Json\IO\Serialization\JsonSerializerInternalReader.cs" />
+    <Compile Include="Json\IO\Serialization\JsonSerializerInternalWriter.cs" />
+    <Compile Include="Json\IO\Serialization\JsonSerializerProxy.cs" />
+    <Compile Include="Json\IO\Serialization\JsonStringContract.cs" />
+    <Compile Include="Json\IO\Serialization\JsonTypeReflector.cs" />
+    <Compile Include="Json\IO\Serialization\MemoryTraceWriter.cs" />
+    <Compile Include="Json\IO\Serialization\ObjectConstructor.cs" />
+    <Compile Include="Json\IO\Serialization\OnErrorAttribute.cs" />
+    <Compile Include="Json\IO\Serialization\ReflectionAttributeProvider.cs" />
+    <Compile Include="Json\IO\Serialization\ReflectionValueProvider.cs" />
+    <Compile Include="Json\IO\Serialization\TraceJsonReader.cs" />
+    <Compile Include="Json\IO\Serialization\TraceJsonWriter.cs" />
+    <Compile Include="Json\IO\StringEscapeHandling.cs" />
+    <Compile Include="Json\IO\TraceLevel.cs" />
+    <Compile Include="Json\IO\TypeNameHandling.cs" />
+    <Compile Include="Json\IO\Utilities\Base64Encoder.cs" />
+    <Compile Include="Json\IO\Utilities\BidirectionalDictionary.cs" />
+    <Compile Include="Json\IO\Utilities\CollectionUtils.cs" />
+    <Compile Include="Json\IO\Utilities\CollectionWrapper.cs" />
+    <Compile Include="Json\IO\Utilities\ConvertUtils.cs" />
+    <Compile Include="Json\IO\Utilities\DateTimeParser.cs" />
+    <Compile Include="Json\IO\Utilities\DateTimeUtils.cs" />
+    <Compile Include="Json\IO\Utilities\DictionaryWrapper.cs" />
+    <Compile Include="Json\IO\Utilities\DynamicProxy.cs" />
+    <Compile Include="Json\IO\Utilities\DynamicProxyMetaObject.cs" />
+    <Compile Include="Json\IO\Utilities\DynamicReflectionDelegateFactory.cs" />
+    <Compile Include="Json\IO\Utilities\DynamicUtils.cs" />
+    <Compile Include="Json\IO\Utilities\EnumUtils.cs" />
+    <Compile Include="Json\IO\Utilities\EnumValue.cs" />
+    <Compile Include="Json\IO\Utilities\ExpressionReflectionDelegateFactory.cs" />
+    <Compile Include="Json\IO\Utilities\FSharpUtils.cs" />
+    <Compile Include="Json\IO\Utilities\ILGeneratorExtensions.cs" />
+    <Compile Include="Json\IO\Utilities\ImmutableCollectionsUtils.cs" />
+    <Compile Include="Json\IO\Utilities\JavaScriptUtils.cs" />
+    <Compile Include="Json\IO\Utilities\JsonTokenUtils.cs" />
+    <Compile Include="Json\IO\Utilities\LateBoundReflectionDelegateFactory.cs" />
+    <Compile Include="Json\IO\Utilities\LinqBridge.cs" />
+    <Compile Include="Json\IO\Utilities\MathUtils.cs" />
+    <Compile Include="Json\IO\Utilities\MethodCall.cs" />
+    <Compile Include="Json\IO\Utilities\MiscellaneousUtils.cs" />
+    <Compile Include="Json\IO\Utilities\PropertyNameTable.cs" />
+    <Compile Include="Json\IO\Utilities\ReflectionDelegateFactory.cs" />
+    <Compile Include="Json\IO\Utilities\ReflectionObject.cs" />
+    <Compile Include="Json\IO\Utilities\ReflectionUtils.cs" />
+    <Compile Include="Json\IO\Utilities\StringBuffer.cs" />
+    <Compile Include="Json\IO\Utilities\StringReference.cs" />
+    <Compile Include="Json\IO\Utilities\StringUtils.cs" />
+    <Compile Include="Json\IO\Utilities\ThreadSafeStore.cs" />
+    <Compile Include="Json\IO\Utilities\TypeExtensions.cs" />
+    <Compile Include="Json\IO\Utilities\ValidationUtils.cs" />
+    <Compile Include="Json\IO\WriteState.cs" />
+    <Compile Include="Properties\StiPublicKeyToken.cs" />
+    <Compile Include="Reflection.cs" />
+    <Compile Include="Services\enums.cs" />
+    <Compile Include="Services\StiServiceActionEventArgs.cs" />
+    <Compile Include="StiBaseOptions.cs" />
+    <Compile Include="Crypto\StiMD5Helper.cs" />
+    <Compile Include="Properties\StiPublicKey.cs" />
+    <Compile Include="StiFontCollection.cs" />
+    <Compile Include="StiTypeEventArgs.cs" />
+    <Compile Include="StiUndefinedType.cs" />
+    <Compile Include="Localization\StiNullableEnumConverter.cs" />
+    <Compile Include="Localization\StiPointFConverter.cs" />
+    <Compile Include="Localization\StiSizeConverter.cs" />
+    <Compile Include="Registry.cs" />
+    <Compile Include="StiFileVersions.cs" />
+    <Compile Include="StiConvert.cs" />
+    <Compile Include="Helpers\FloatHelper.cs" />
+    <Compile Include="Helpers\DecimalHelper.cs" />
+    <Compile Include="Helpers\StrHelper.cs" />
+    <Compile Include="Helpers\DoubleHelper.cs" />
+    <Compile Include="Drawing\Design\StiCapConverter.cs" />
+    <Compile Include="Drawing\StiCap.cs" />
+    <Compile Include="Drawing\StiCapStyleHelper.cs" />
+    <Compile Include="Exceptions\IStiCustomExceptionProvider.cs" />
+    <Compile Include="Exceptions\StiExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exceptions\StiExceptionForm.designer.cs">
+      <DependentUpon>StiExceptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exceptions\StiExceptionProvider.cs" />
+    <Compile Include="Serializing\IStiSerializableCustomControl.cs" />
+    <Compile Include="StiEncryption.cs" />
+    <Compile Include="StiGuiModeAttribute.cs" />
+    <Compile Include="Design\IStiDefault.cs" />
+    <Compile Include="Design\IStiReport.cs" />
+    <Compile Include="Drawing\StiGlassBrush.cs" />
+    <Compile Include="Drawing\Design\PointDConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Design\RectangleDConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Design\SizeDConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Design\StiBorderConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Design\StiBorderSideConverter.cs" />
+    <Compile Include="Drawing\Design\StiBrushConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Design\StiColorConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Design\StiHatchStyleConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Design\StiTextOptionsConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\IStiInvalidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\PointD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\RectangleD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\RectangleDHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\SizeD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiActionUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiAdvancedBorder.cs" />
+    <Compile Include="Drawing\StiAlignHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiBorder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiBorderSide.cs" />
+    <Compile Include="Drawing\StiBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiBrushes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiColors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiColorUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiControlPaint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiCursorUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiDrawing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiEmptyBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiFontUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiGlareBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiGradientBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiHatchBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiHatchStyleHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiIconUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiImageCodecInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiImageConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiImageFromURL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiImageUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiMetafileConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiMetafileSaver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiOffsetHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiOSFeature.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiPens.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiPenStyleHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiPenUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiRotatedTextDrawing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiShadow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiShadowGraphics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiSolidBrush.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiSystemBrushes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiTextDrawing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiTextOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiTextOptionsHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiTextRender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\StiTextRotationHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drawing\Win32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\IStiEngineVersionProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\IStiReportProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\StiEngineAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IStiFormRunner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization\InvariantComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization\StiBoolConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization\StiCategoryAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization\StiEnumConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization\StiLocalization.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization\StiOrderAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization\StiOrderConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\IStiNonSerialized.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\IStiSerializable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\IStiSerializeToCodeAsClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiGraphs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiNonSerializedAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiPropertyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiPropertyInfoCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiReferenceCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiReferenceIgnoreAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiSerializableAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializing\StiSerializing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\StiService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\StiServiceBitmapAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\StiServiceCategoryBitmapAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\StiServiceContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\StiServiceParamAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiActivator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiAlignValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiAssemblyFinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiAssemblyRegistratorAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiCompiler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiFileUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiGuidUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiUrl.cs" />
+    <Compile Include="Zip\StiGZipHelper.cs" />
+    <Compile Include="StiHint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiLexer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiLexerException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiNameTypeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiNameTypeEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiObjectConvert.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiObjectStateSaver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiObjectStringConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiRectangleUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiRepositoryItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiToken.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiTypeFinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiTypeWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiUniversalConstructorAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiUniversalConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StiWebClientEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StiWinFormRunner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Zip\StiZipReader20.cs" />
+    <Compile Include="Zip\StiZipWriter20.cs" />
+    <EmbeddedResource Include="Bmp\Service.bmp" />
+    <EmbeddedResource Include="Exceptions\StiExceptionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StiExceptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\en.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stimulsoft.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
