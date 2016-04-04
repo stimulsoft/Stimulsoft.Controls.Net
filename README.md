@@ -1,2 +1,4 @@
 # Stimulsoft.Controls.Net
-Stimulsoft Controls for WinForms
+
+Controls for Windows Forms Application from Stimulsoft. 
+Part of Stimulsoft Reports.Net solution.
