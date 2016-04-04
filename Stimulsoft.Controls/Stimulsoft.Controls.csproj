@@ -12,7 +12,8 @@
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
     <AssemblyName>Stimulsoft.Controls</AssemblyName>
-    <AssemblyOriginatorKeyFile>stimulsoft.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
@@ -555,9 +556,6 @@
     <EmbeddedResource Include="Toolbox\StiToolButton.bmp" />
     <EmbeddedResource Include="Toolbox\StiTreeView.bmp" />
     <EmbeddedResource Include="Toolbox\StiTreeViewBox.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="stimulsoft.snk" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Bmp\ComboDown.png" />
